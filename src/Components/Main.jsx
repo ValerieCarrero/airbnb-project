@@ -2,7 +2,7 @@ import Miami from "../assets/images/miami.jpg";
 import Aspen from "../assets/images/aspen.jpg";
 import NewYork from "../assets/images/newYork.jpg";
 import California from "../assets/images/california.jpg";
-import Oregon from "../assets/images/oregon.jpg";
+import Oregon from "../assets/images/Oregon.jpg";
 import Chicago from "../assets/images/chicago.jpg";
 import Seattle from "../assets/images/seattle.jpg";
 import Austin from "../assets/images/austin.jpg";
