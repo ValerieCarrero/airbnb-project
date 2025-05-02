@@ -6,7 +6,11 @@ import Filter from "./Filter";
 export default function Header() {
     return (
     <div className="header">
-<Logoheader />
+<Logoheader 
+list1={"Experiences"}
+list2={"Online Experiences"}
+
+/>
 <Input />
 <Filter />
 </div>

@@ -36,7 +36,9 @@ export default function Input() {
             <p className="title">Who</p>
             <p className="subtitle">Add guests</p>
           </div>
-          <img className="search-img" src={Search} alt="Search" />
+          <button className="search-button" aria-label="Search">
+  <img className="search-img" src={Search} alt="Search" />
+</button>
       </div>
 
 

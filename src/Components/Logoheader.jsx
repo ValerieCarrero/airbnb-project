@@ -4,16 +4,16 @@ import Menu from "../assets/icons/menu.png";
 import User from "../assets/images/A.png"
 
 
-export default function Logoheader() {
+export default function Logoheader({list1, list2}) {
 return (
-    <header className="logoheader">
+    <header  className="logoheader">
     <div className="header__container">
         <img src={Logo} alt="Logo" className="header__logo" />
 
         <div className="navbar">
          <ul>
-          <li> <a href="#experiences">Experiences</a></li>
-          <li> <a href="onlineExperiences">Online Experiences</a></li>
+          <li> <a href="#experiences">{list1}</a></li>
+          <li> <a href="onlineExperiences">{list2}</a></li>
         </ul>
         </div>
 

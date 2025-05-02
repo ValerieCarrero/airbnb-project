@@ -4,7 +4,7 @@ import NewYork from "../assets/images/newYork.jpg";
 import California from "../assets/images/california.jpg";
 import Oregon from "../assets/images/Oregon.jpg";
 import Chicago from "../assets/images/chicago.jpg";
-import Seattle from "../assets/images/seattle.jpg";
+import Seattle from "../assets/images/Seattle.jpg";
 import Austin from "../assets/images/austin.jpg";
 import Vegas from "../assets/images/vegas.jpg";
 import Savannah from "../assets/images/savannah.jpg";
@@ -187,7 +187,7 @@ const listings = [
     return (
 <div className="main">
     {listings.map((listing) => (
-        <div className='main__items'>
+        <div key={listing.id} className='main__items'>
 <img src={listing.image} alt={listing.title} className="main__image" />
 <div className="main__details">
 <h2 className="main__title">{listing.title}</h2>
